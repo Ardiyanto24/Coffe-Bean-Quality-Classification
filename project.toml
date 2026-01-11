@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coffee-bean-classification"
+version = "0.1.0"
+description = "Image-based coffee bean classification using transfer learning and hyperparameter tuning"
+authors = [
+    { name = "Ardiyanto", email = "your-email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "tensorflow>=2.10",
+    "optuna",
+    "opencv-python",
+    "Pillow",
+    "tqdm"
+]
+
+[tool.setuptools]
+packages = []
