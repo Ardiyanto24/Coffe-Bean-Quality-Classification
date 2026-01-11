@@ -1,0 +1,71 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+outputs/logs/
+
+# ===============================
+# Model Artifacts (DO NOT COMMIT)
+# ===============================
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.tflite
+outputs/models/
+
+# ===============================
+# Dataset (local or kaggle mounted)
+# ===============================
+data/
+dataset/
+datasets/
+
+# ===============================
+# Experiment Outputs
+# ===============================
+outputs/predictions/
+outputs/oof/
+outputs/tmp/
+
+# ===============================
+# Optuna / Tuning Artifacts
+# ===============================
+optuna_study.db
+optuna_trials/
+
+# ===============================
+# PDFs / Reports (optional)
+# Comment these lines if you WANT to commit reports
+# ===============================
+# reports/
