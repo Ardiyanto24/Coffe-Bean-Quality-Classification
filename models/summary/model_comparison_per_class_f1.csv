@@ -1,0 +1,7 @@
+,defect,longberry,peaberry,premium
+EfficientNetB3,0.9195,0.9895,0.9565,0.92
+EfficientNetB0,0.9348,0.9684,0.9438,0.9184
+ResNet50,0.9149,0.9684,0.9318,0.9278
+EfficientNetB2,0.9011,0.9583,0.9412,0.902
+EfficientNetB1,0.8966,0.9691,0.9438,0.8911
+MobileNetV2,0.8387,0.9333,0.8764,0.8627

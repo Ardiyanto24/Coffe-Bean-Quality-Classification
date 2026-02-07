@@ -1,0 +1,17 @@
+{
+  "version": "v1_20260207_165521",
+  "timestamp": "20260207_165521",
+  "seed": 42,
+  "batch_size": 32,
+  "epochs": 50,
+  "num_classes": 4,
+  "learning_rate": 0.001,
+  "class_names": [
+    "defect",
+    "longberry",
+    "peaberry",
+    "premium"
+  ],
+  "tensorflow_version": "2.19.0",
+  "gpu_available": true
+}
