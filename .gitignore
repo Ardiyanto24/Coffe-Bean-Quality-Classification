@@ -47,7 +47,7 @@ outputs/models/
 # ===============================
 # Dataset (local or kaggle mounted)
 # ===============================
-data/
+/data/
 dataset/
 datasets/
 
